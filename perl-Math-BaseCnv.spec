@@ -8,12 +8,12 @@
 Summary:	Math::BaseCnv - quickly convert between any number bases
 Summary(pl):	Math::BaseCnv - szybkie przeliczanie miêdzy dowolnymi podstawami liczb
 Name:		perl-Math-BaseCnv
-Version:	1.0.37SLNGN
+Version:	1.0.446EIbS
 Release:	1
 License:	GPL v2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
-# Source0-md5:	4f46f667f2d40ed9caf5a2b7d9a4559e
+# Source0-md5:	a2791d8ea6ddb547d5ebeab484d8e3d1
 BuildRequires:	perl-devel >= 5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -55,6 +55,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README
+%doc README
+%attr(755,root,root) %{_bindir}/bin/cnv
 %{perl_vendorlib}/Math/BaseCnv.pm
 %{_mandir}/man3/*
