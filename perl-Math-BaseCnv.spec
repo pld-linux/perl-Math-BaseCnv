@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	BaseCnv
+%define		pdir	Math
+%define		pnam	BaseCnv
 Summary:	Math::BaseCnv - quickly convert between any number bases
 Summary(pl):	Math::BaseCnv - szybkie przeliczanie miêdzy dowolnymi podstawami liczb
 Name:		perl-Math-BaseCnv
