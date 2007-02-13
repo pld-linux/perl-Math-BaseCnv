@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	BaseCnv
 Summary:	Math::BaseCnv - quickly convert between any number bases
-Summary(pl.UTF-8):   Math::BaseCnv - szybkie przeliczanie między dowolnymi podstawami liczb
+Summary(pl.UTF-8):	Math::BaseCnv - szybkie przeliczanie między dowolnymi podstawami liczb
 Name:		perl-Math-BaseCnv
 Version:	1.2.59M7mRX
 Release:	1
