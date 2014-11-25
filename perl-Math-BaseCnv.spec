@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Math
 %define		pnam	BaseCnv
+%include	/usr/lib/rpm/macros.perl
 Summary:	Math::BaseCnv - quickly convert between any number bases
 Summary(pl.UTF-8):	Math::BaseCnv - szybkie przeliczanie między dowolnymi podstawami liczb
 Name:		perl-Math-BaseCnv
@@ -14,6 +14,7 @@ License:	GPL v2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
 # Source0-md5:	60d5fb31db63e3d7a9807b0df37c4a80
+URL:		http://search.cpan.org/dist/Math-BaseCnv/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
