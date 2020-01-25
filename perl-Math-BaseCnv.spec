@@ -4,7 +4,6 @@
 
 %define		pdir	Math
 %define		pnam	BaseCnv
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math::BaseCnv - quickly convert between any number bases
 Summary(pl.UTF-8):	Math::BaseCnv - szybkie przeliczanie między dowolnymi podstawami liczb
 Name:		perl-Math-BaseCnv
